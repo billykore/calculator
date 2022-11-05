@@ -14,17 +14,17 @@ func (c *Calculator) Add(num int) *Calculator {
 }
 
 func (c *Calculator) Sub(num int) *Calculator {
-	c.Result += num
+	c.Result -= num
 	return c
 }
 
 func (c *Calculator) Mul(num int) *Calculator {
-	c.Result += num
+	c.Result *= num
 	return c
 }
 
 func (c *Calculator) Div(num int) *Calculator {
-	c.Result += num
+	c.Result /= num
 	return c
 }
 
